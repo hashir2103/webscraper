@@ -132,7 +132,7 @@ def is_valid_domain(url):
 
 if __name__ == "__main__":
     load_dotenv()
-    openai_key = "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"
+    openai_key = os.getenv("OPENAI_API_KEY")
     app = ScraperApp(openai_key)
     app.run()
 
