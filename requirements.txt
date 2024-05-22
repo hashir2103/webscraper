@@ -3,3 +3,4 @@ streamlit
 validators
 scrapegraphai
 python-dotenv
+playwright
